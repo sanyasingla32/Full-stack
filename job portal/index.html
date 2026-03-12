@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Naukri Clone - HTML Only</title>
+    <title>Naukri Clone </title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-
 <body>
 
-<table width="100%"  border="0">
+<table width="100%" border="0">
     <tr>
         <td><h2>Naukri.com</h2></td>
         <td align="right">
@@ -17,7 +16,7 @@
             <a href="#">For Employers</a>
         </td>
     </tr>
-</table>
+</table>                                                                
 
 <hr>
 
@@ -96,18 +95,40 @@
 
 <hr>
 
+<!-- NEW SECTION ADDED (Job Posting Feature) -->
+
+<center>
+    <h2>Add New Job</h2>
+
+    <input type="text" id="title" placeholder="Job Title">
+    <input type="text" id="company" placeholder="Company">
+    <input type="text" id="location" placeholder="Location">
+    <input type="text" id="salary" placeholder="Salary">
+    <input type="text" id="description" placeholder="Job Description">
+
+    <br><br>
+
+    <button id="addBtn">Add Job</button>
+</center>
+
+<hr>
+
+<h2>Posted Jobs</h2>
+
+<div id="jobList"></div>
+
+<hr>
+
 <center>
     <p>
         About Us | Contact Us | Help Center | Privacy Policy
     </p>
     <p>
-        © 2026 Naukri Clone | HTML-CSS  Project
+        © 2026 Naukri Clone 
     </p>
 </center>
 
+<script src="script.js"></script>
+
 </body>
 </html>
-
-
-
-
